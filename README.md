@@ -6,6 +6,12 @@ Job Alert "Bot" is a Python script that scrapes job links from LinkedIn job aler
 ### How does it work
 This script uses Python's email and imaplib library to connect to an email specifically created to receive LinkedIn job alert emails. Then it takes in all available emails in the inbox and parses the HTML page using BeautifulSoup. 
 
+### Current Job Searches
+- Software Engineer (Full-time / Intern)
+- Software Developer (Full-time / Intern)
+- Embedded Engineer (Full-time / Intern)
+- Robotics Engineer (Full-time / Intern)
+
 ### Future Plans
 Previous versions of this script used to be able to grab the job title, company, and location alongside the link. Due to latency issues with the Discord bot, the script does not search for those fields. In future updates, the script will be able to grab more information.
 
@@ -13,3 +19,4 @@ Previous versions of this script used to be able to grab the job title, company,
 - [ ] Implement export function to save job information
 - [ ] Work with getting Indeed, Glassdoor, and Handshake emails to scrape properly
 - [ ] Figure out how to automate job alert creation
+- [ ] Efficient code and better commenting
