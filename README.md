@@ -12,7 +12,7 @@ This script uses Python's email and imaplib library to connect to an email speci
 - Embedded Engineer (Full-time / Intern)
 - Robotics Engineer (Full-time / Intern)
 
-### Future Plans
+### To-Do List
 Previous versions of this script used to be able to grab the job title, company, and location alongside the link. Due to latency issues with the Discord bot, the script does not search for those fields. In future updates, the script will be able to grab more information.
 
 - [ ] Automate script to scrape emails at 11:50PM everyday
